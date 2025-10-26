@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class MembershipType {
+public enum MembershipType {
+    STUDENT, // maybe lower fines or longer loan period in future
+    FACULTY,
+    PUBLIC
 }

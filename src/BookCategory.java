@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
-
-public class BookCategory {
+public enum BookCategory {
+    FICTION,
+    NON_FICTION,
+    SCIENCE,
+    HISTORY,
+    BIOGRAPHY,
+    TECHNOLOGY,
+    CHILDREN
 }
